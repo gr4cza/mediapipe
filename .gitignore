@@ -5,3 +5,7 @@ mediapipe/provisioning_profile.mobileprovision
 .configure.bazelrc
 .user.bazelrc
 .idea/**
+!/bazel-bin/mediapipe/examples/android/src/java/com/google/mediapipe/apps/**
+/mediapipe/examples/android/solutions/.gradle/
+/mediapipe/examples/android/solutions/.idea/
+/mediapipe/examples/android/solutions/local.properties
