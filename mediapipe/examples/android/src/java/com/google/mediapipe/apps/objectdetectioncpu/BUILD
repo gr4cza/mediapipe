@@ -37,8 +37,8 @@ android_binary(
     srcs = glob(["*.java"]),
     assets = [
         "//mediapipe/graphs/object_detection:mobile_cpu.binarypb",
-        "//mediapipe/models:ssdlite_object_detection.tflite",
-        "//mediapipe/models:ssdlite_object_detection_labelmap.txt",
+        "//mediapipe/models:trash_can_model.tflite",
+        "//mediapipe/models:trash_can_labelmap.txt",
     ],
     assets_dir = "",
     manifest = "//mediapipe/examples/android/src/java/com/google/mediapipe/apps/basic:AndroidManifest.xml",

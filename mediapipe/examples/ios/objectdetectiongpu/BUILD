@@ -55,8 +55,8 @@ objc_library(
     name = "ObjectDetectionGpuAppLibrary",
     data = [
         "//mediapipe/graphs/object_detection:mobile_gpu_binary_graph",
-        "//mediapipe/models:ssdlite_object_detection.tflite",
-        "//mediapipe/models:ssdlite_object_detection_labelmap.txt",
+        "//mediapipe/models:trash_can_model.tflite",
+        "//mediapipe/models:trash_can_labelmap.txt",
     ],
     deps = [
         "//mediapipe/examples/ios/common:CommonMediaPipeAppLibrary",

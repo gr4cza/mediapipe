@@ -65,7 +65,7 @@ node {
   output_stream: "TENSORS_GPU:detection_tensors"
   node_options: {
     [type.googleapis.com/mediapipe.TfLiteInferenceCalculatorOptions] {
-      model_path: "mediapipe/models/ssdlite_object_detection.tflite"
+      model_path: "mediapipe/models/trash_can_model.tflite"
     }
   }
 }
@@ -110,7 +110,7 @@ node {
   output_stream: "DETECTIONS:detections"
   node_options: {
     [type.googleapis.com/mediapipe.TfLiteTensorsToDetectionsCalculatorOptions] {
-      num_classes: 91
+      num_classes: 4
       num_boxes: 2034
       num_coords: 4
       ignore_classes: 0
@@ -148,7 +148,7 @@ node {
   output_stream: "output_detections"
   node_options: {
     [type.googleapis.com/mediapipe.DetectionLabelIdToTextCalculatorOptions] {
-      label_map_path: "mediapipe/models/ssdlite_object_detection_labelmap.txt"
+      label_map_path: "mediapipe/models/trash_can_labelmap.txt"
     }
   }
 }
