@@ -9,3 +9,4 @@ mediapipe/provisioning_profile.mobileprovision
 /mediapipe/examples/android/solutions/.gradle/
 /mediapipe/examples/android/solutions/.idea/
 /mediapipe/examples/android/solutions/local.properties
+/export/
