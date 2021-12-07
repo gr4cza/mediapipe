@@ -7,7 +7,7 @@
 input_stream: "input_video"
 output_stream: "output_video"
 # Collection of detected/predicted objcts, each represented as a list of
-# landmarks. (std::vector<Detection>)
+# detection. (std::vector<Detection>)
 output_stream: "tracked_detections"
 
 # Resamples the images by specific frame rate. This calculator is used to
